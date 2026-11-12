@@ -1,0 +1,5 @@
+{
+  "name": "Kameleo Cloud Sandbox",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postStartCommand": "bash setup_kameleo.sh"
+}
