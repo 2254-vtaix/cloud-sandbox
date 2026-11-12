@@ -1,6 +1,6 @@
-=== Starting Kameleo Isolated Setup at Thu Nov 12 22:05:07 UTC 2026 ===
-CODESPACE_NAME=kameleo-sandbox-1-96j4g5pgvjv5279wg
-Assigned Account: Account-3
+=== Starting Kameleo Isolated Setup at Thu Nov 12 22:28:42 UTC 2026 ===
+CODESPACE_NAME=kameleo-sandbox-2-77p4j5gjq56w3x5qr
+Assigned Account: Account-4
 Error response from daemon: No such container: kameleo-app
 Unable to find image 'kameleo/kameleo-app:latest' locally
 latest: Pulling from kameleo/kameleo-app
@@ -19,14 +19,13 @@ c4402d828c28: Pulling fs layer
 6be09624b66d: Pulling fs layer
 ccb9f6343f83: Waiting
 cc9bc70aaacb: Waiting
+249efb828956: Waiting
+876bdb708555: Waiting
+c4402d828c28: Waiting
 c5c4a559a33e: Waiting
 7c49591a3a05: Waiting
 10b933f10516: Waiting
 a0fecabb5296: Waiting
-249efb828956: Waiting
-876bdb708555: Waiting
-c4402d828c28: Waiting
-6be09624b66d: Waiting
 8ae952ef6ba4: Verifying Checksum
 8ae952ef6ba4: Download complete
 a6a55f2a2de9: Verifying Checksum
@@ -38,12 +37,12 @@ ccb9f6343f83: Download complete
 7c49591a3a05: Download complete
 10b933f10516: Verifying Checksum
 10b933f10516: Download complete
+c5c4a559a33e: Verifying Checksum
+c5c4a559a33e: Download complete
 a0fecabb5296: Verifying Checksum
 a0fecabb5296: Download complete
 cc9bc70aaacb: Verifying Checksum
 cc9bc70aaacb: Download complete
-c5c4a559a33e: Verifying Checksum
-c5c4a559a33e: Download complete
 249efb828956: Verifying Checksum
 249efb828956: Download complete
 876bdb708555: Verifying Checksum
@@ -67,12 +66,11 @@ c4402d828c28: Pull complete
 6be09624b66d: Pull complete
 Digest: sha256:59510aee3dff16a1a551e368099b3a08b1fd3731feed9c05c52dd81a1e3d97ae
 Status: Downloaded newer image for kameleo/kameleo-app:latest
-48995cc7f578e6c9977efbe5409237eb159783d0fd97778299a68130a1f3ed89
+b228dad07669b3575cccfe5c7758682f34460c1ef7e6bb5700f6b8f51a0b81a1
 Waiting for port 5050...
 wait 1 fail
 wait 2 fail
 wait 3 {"status":503,"errorCode":"service_not_ready","type":"https://httpstatuses.io/503","title":"The service is initializing.","detail":"Initialization is in progress. Please try again shortly.","instance":"/general/user-info"}
 Kameleo API 200 OK!
-From https://github.com/2254-vtaix/cloud-sandbox
- * branch            main       -> FETCH_HEAD
-Already up to date.
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
